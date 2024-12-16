@@ -1,0 +1,58 @@
+<!-- interests.html -->
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>اهتماماتي - مها الثبيتي</title>
+    <style>
+        /* نفس التنسيقات السابقة */
+        .interests-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .interest-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .interest-card h3 {
+            color: #6a1b9a;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">الرئيسية</a>
+        <a href="interests.html">اهتماماتي</a>
+        <a href="projects.html">مشاريع 2030</a>
+        <a href="contact.html">تواصل معي</a>
+    </nav>
+
+    <div class="container">
+        <h1>اهتماماتي</h1>
+        <div class="interests-grid">
+            <div class="interest-card">
+                <h3>الرسم</h3>
+                <p>أحب رسم المناظر الطبيعية والوجوه</p>
+            </div>
+            <div class="interest-card">
+                <h3>الأزياء</h3>
+                <p>أهتم بتصميم الأزياء وتنسيق الملابس</p>
+            </div>
+            <div class="interest-card">
+                <h3>الطبخ</h3>
+                <p>أستمتع بتعلم وصفات جديدة وتجربتها</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
